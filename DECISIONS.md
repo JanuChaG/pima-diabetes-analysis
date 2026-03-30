@@ -26,6 +26,10 @@
 - Requirements.txt ensures reproducibility across environments.  
 - Jupyter notebooks are used directly for clarity and transparency.  
 - Note: For larger projects, code would typically be modularized into `.py` files (e.g., preprocessing, modeling, utilities). In this submission, notebooks are retained to prioritise readability and examiner accessibility.  
-- README.md provides an overview, workflow, and results for examiners and collaborators.  
+- README.md provides an overview, workflow, and results for examiners and collaborators.
+
+## 5. Environment Validation
+The requirements.txt file was generated directly from the notebook environment, capturing the exact versions of pandas, numpy, scikit‑learn, and matplotlib used in this project. This ensures that the analysis can be reliably reproduced on any compatible system.
+
   
 
