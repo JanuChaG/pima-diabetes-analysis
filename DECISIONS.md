@@ -11,9 +11,9 @@
 - Models were compared using Accuracy, Precision, Recall, and F1‑score to ensure balanced evaluation.  
 
 **Results (from modeling notebook):**
-- Logistic Regression: Accuracy ≈ 0.77, Recall ≈ 0.68, F1 ≈ 0.72.  
-- Random Forest: Accuracy ≈ 0.81, Recall ≈ 0.71, F1 ≈ 0.75.  
-- Random Forest demonstrated stronger overall performance, while Logistic Regression remained more transparent and easier to interpret.  
+- Logistic Regression: Accuracy = 0.701, Precision = 0.58, Recall = 0.537, F1 = 0.558.  
+- Random Forest: Accuracy = 0.714, Precision = 0.60, Recall = 0.556, F1 = 0.577.  
+- Random Forest achieved slightly higher overall performance, while Logistic Regression remained more transparent and easier to interpret.  
 
 ## 3. Challenges
 - Recall values remained moderate, highlighting the difficulty of identifying all positive cases.  
@@ -27,4 +27,5 @@
 - Jupyter notebooks are used directly for clarity and transparency.  
 - Note: For larger projects, code would typically be modularized into `.py` files (e.g., preprocessing, modeling, utilities). In this submission, notebooks are retained to prioritise readability and examiner accessibility.  
 - README.md provides an overview, workflow, and results for examiners and collaborators.  
+  
 
